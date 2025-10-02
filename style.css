@@ -1,0 +1,51 @@
+*{
+   background: radial-gradient(circle, purple, black);
+}
+body{
+    height: 100vh;
+       overflow: hidden;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 12px;
+grid-row-gap: 19px;
+}
+
+.div1 {
+    background-image: url(img/Captura\ de\ tela\ 2025-10-02\ 151551.png);
+     grid-area: 1 / 1 / 2 / 3; 
+height: 30vh;
+
+}
+.div2 {
+    background-image:url(img/Captura\ de\ tela\ 2025-10-02\ 151557.png) ;
+     grid-area: 1 / 3 / 2 / 6;
+
+
+ }
+.div3 {
+    background-image:url(img/Captura\ de\ tela\ 2025-10-02\ 151604.png) ;
+     grid-area: 1 / 6 / 2 / 7; 
+
+
+}
+.div4 {
+    background-image:url(img/Captura\ de\ tela\ 2025-10-02\ 151623.png) ;
+     grid-area: 2 / 1 / 4 / 4;
+
+
+ }
+.div5 {
+    background-image: url(img/Captura\ de\ tela\ 2025-10-02\ 151633.png); 
+    grid-area: 2 / 4 / 4 / 7;
+
+    
+ }
+div{
+    background-size: cover; /* Faz a imagem caber completamente */
+    background-repeat: no-repeat;
+    
+
+}
